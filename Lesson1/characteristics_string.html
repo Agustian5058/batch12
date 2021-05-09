@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar Variabel dalam Javascript</title>
+
+</head>
+<body>
+    <script>
+        var test1 = "He is called Johnny" // Double quotes
+        document.write("test1: " + test1 + " data type is " + typeof test1 + "<br>");
+        document.write("<br>");
+
+        var test2 = "He is called 'Johnny'"; // Double quotes
+        document.write("test2: " + test2 + " data type is " + typeof test2 + "<br>");
+        document.write("<br>");
+
+        var test3 = 'He is called "Johnny"'; // Single quotes
+        document.write("test3: " + test3 + " data type is " + typeof test3 + "<br>");
+        document.write("<br>");
+
+        var test4 = new String("He is called \"Johnny\""); //Not String but an Object
+        document.write("test4: " + test4 + " data type is " + typeof test4 + "<br>");
+        document.write("<br>");
+
+        var test5 = new String("He is called \"Johnny\""); //Not String but an Object
+        document.write("test5: " + test5 + " data type is " + typeof test5 + "<br>");
+        document.write("<br>");
+
+        document.write("test1 == test4: " + (test1 == test4) + "<br>");
+        document.write("<br>");
+        document.write("test1 === test5: " + (test1 === test5) + "<br>");
+        document.write("<br>");
+        document.write("test4 == test5: " + (test4 == test5) + "<br>");
+        document.write("<br>");
+        document.write("test4 === test5: " + (test4 === test5) + "<br>");
+        document.write("<br>");
+
+        var test6 = "He is called \"Johnny\""; //Not String but an Object
+        document.write("test6: " + test6 + " data type is " + typeof test6 + "<br>");
+        document.write("<br>");
+
+        var test7 = 'He is called \'Johnny\''; //Not String but an Object
+        document.write("test7: " + test7 + " data type is " + typeof test7 + "<br>");
+        document.write("<br>");
+
+        var test8 = new String("He is called \"Johnny\""); //Not String but an Object
+        document.write("test8: " + test8 + " data type is " + typeof test8 + "<br>");
+        document.write("<br>");
+    </script>
+
+</body>
+</html>
+
+

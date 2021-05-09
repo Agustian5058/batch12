@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar Variabel dalam Javascript</title>
+
+</head>
+<body>
+    <script>
+        var x = 3.14;    // A number with decimals
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+
+        var x = 3;       // A number without decimals
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+        
+        var x = 123e5;     // 12300000
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+        
+        var x = 123e-5;    // 0.00123
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+        
+        var x = 999999999999999;   // x will be 999999999999999
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+        
+        var x = 9999999999999999;  // y will be 10000000000000000
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+        
+        var x = 0.2 + 0.1;         // x will be 0.30000000000000004
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+        
+        var x = (0.2 * 10 + 0.1 * 10) / 10;        // x will be 0.3
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+
+        var x = parseFloat(0.2 + 0.1).toFixed(2);        // x will be 0.3
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+        
+        document.write("x: " + x + " data type is " + typeof x + "<br>");
+        document.write("<br>");
+    </script>
+
+</body>
+</html>
+
+
